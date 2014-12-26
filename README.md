@@ -29,4 +29,4 @@ int main()
 ```
 
 It's that simple. When the memory manager is linked in or the header file is included anywhere in your C++ source, the
-default OS provided new and delete implementations are replaced by the one from this.
+default OS-provided new and delete implementations are replaced by the one from this.
