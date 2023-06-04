@@ -3,7 +3,7 @@ CppMemoryManager
 
 A fragment coalescing memory manager for C++ projects. 
 
-###Description
+##Description
 
 When included in a C++ project, this essentially replaces the default new and delete operators with the implementation
 provided by the memory manager. A large block of memory, whose size can be changed in the source, is allocated from the
@@ -12,7 +12,7 @@ bypassing the OS and thus likely improving performance compared to the default a
 empty contiguous blocks of freed memory upon calls to delete, keeping fragmentation to a minimum. It can also use a best
 fit allocation strategy when fragmentation pressure is high.
 
-###Usage
+##Usage
 
 ```C++
 
